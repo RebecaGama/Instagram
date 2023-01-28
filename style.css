@@ -1,16 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    padding-top: 8px;
 }
 
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #fafafa;
   }
-
-container {
-    margin: 0 5px;
-}
 
 .box1 img {
     width: 58%;
@@ -43,7 +40,7 @@ container {
 }
 
 .box1 * {
-    width: 78%;
+    width: 60%;
 }
 
 input {
@@ -58,7 +55,7 @@ input[type="password"] {
     padding: 11px;
     font-size: 12px;
     font-weight: lighter;
-    width: 76%;
+    width: 75%;
 }
 
 button {
@@ -66,18 +63,18 @@ button {
     border: none;
     background-color: #0095f6;
     color: rgb(255, 255, 255);
-    border-radius: 7px;
+    border-radius: 6px;
     margin-top: 10px;
     font-weight: 600;
-    width: 76%;
+	width: 76%;
 }
 
 hr{
     display: block;
     border: 1px inset;
     overflow: hidden;
-    margin: 20px 0 10px 0;
-    width: 76%;
+    margin: 20px 0 5px 0;
+    width: 85%;
     filter: opacity(60%);
 }
 
@@ -100,6 +97,8 @@ hr{
 
 .box1 .facebook img {
     width: 8%;
+    margin: 5px auto 7px auto;
+    margin-bottom: 9px;
 }
 
 #facebook-text {
@@ -107,14 +106,14 @@ hr{
     width: auto;
     font-weight: 600;
     font-size: 14px;
-    margin-left: 4px;
 }
 
 #facebook-text2 {
     color: #385185;
     width: auto;
     font-size: 12px;
-    margin: 20px;
+    margin: 1px;
+    margin-bottom: 12px;
 }
 
 #facebook-text a,
@@ -125,11 +124,10 @@ hr{
 
 .box2 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px lightgrey solid;
-    padding: 20px;
+    padding: 16px;
 }
 
 #box2-text {
