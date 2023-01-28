@@ -59,22 +59,20 @@ input[type="password"] {
 }
 
 button {
-    padding: 8px;
-    border: none;
     background-color: #0095f6;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
+    border: none;
+    padding: 8px;
     border-radius: 6px;
     margin-top: 10px;
     font-weight: 600;
-	width: 76%;
 }
 
 hr{
+    border:0;
+    background:#d7d7d7;
     display: block;
-    border: 1px inset;
-    overflow: hidden;
     margin: 20px 0 5px 0;
-    width: 85%;
     filter: opacity(60%);
 }
 
@@ -97,7 +95,7 @@ hr{
 
 .box1 .facebook img {
     width: 8%;
-    margin: 5px auto 7px auto;
+    margin: 5px auto 4px auto;
     margin-bottom: 9px;
 }
 
