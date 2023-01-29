@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    padding-top: 8px;
 }
 
 body {
@@ -144,7 +143,7 @@ hr{
 
 #box2-text {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 #box2-text a {
