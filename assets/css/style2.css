@@ -173,3 +173,8 @@ hr{
 .box3 .apps img {
     width: 110px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
